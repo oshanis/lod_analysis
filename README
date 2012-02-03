@@ -1,0 +1,4 @@
+1. The db36 logs have the same timestamps if they had come within the same
+hour
+
+2. The db34 logs have different timestamps for each individual
