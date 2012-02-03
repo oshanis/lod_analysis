@@ -15,7 +15,11 @@ The plan is to use DirWalker to yield line of log in each file
 '''
 
 import sys
+'''
+@params folder Full path to the folder that contains apahache logs of the same typs
+@params syntax string specifies which parser should be used from the parse_tools.py
 
+'''
 w = DirWalker(sys.argv[1], sys.argv[2])
 ip_country_dict = {} 
 for fields in w:
